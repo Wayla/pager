@@ -21,4 +21,4 @@
 
   To install development dependencies, run `npm install`
 
-  To build a new release, run `build-release`
+  To build a new release, run `./build-release`
