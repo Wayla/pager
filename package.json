@@ -1,0 +1,11 @@
+{
+  "name": "menu",
+  "version": "0.0.0",
+  "dependencies": {},
+  "scripts" : {
+    "install", "component install && component build"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
