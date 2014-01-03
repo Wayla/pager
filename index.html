@@ -27,8 +27,6 @@
         background-color: gray;
     }
 
-
-
 </style>
 
 <header>
@@ -59,13 +57,18 @@
 </section>
 
 
-<script type='text/javascript' src='https://raw.github.com/Wayla/pager/build/release/pager.js'></script><!--update my URL later with something a bit more permanent (and also versioned)-->
+<script type='text/javascript' src='https://rawgithub.com/Wayla/pager/build/release/pager.js'></script><!--update my URL later with something a bit more permanent (and also versioned)-->
 <script>
 (function () { //creating a closure
 
+    var Pager = require('pager') //componentjs require statement
 
-
-
+    var push = new Pager([{
+        menu: '.demo.push .menu',
+        container: '.demo.push .container',
+        handle: '.demo.container .handle',
+        mode: 'push'
+    }])
 
 
 })()
