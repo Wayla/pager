@@ -121,3 +121,7 @@ var animator = new Animator({
 	  opts: {}
 	}, 
 })
+
+# Development
+
+To build a new release, run `build-release`
