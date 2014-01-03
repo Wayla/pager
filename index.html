@@ -1,59 +1,59 @@
 <link rel='stylesheet' type='text/css' href='reset.css'>
 <style>
 
-    .all-demos {
+    body {
+        font-family: Helvetica;
+    }
+
+    body > header {
+        margin:10px;
+    }
+
+    .pages {
         height:100%;
         width:100%;
+        position:absolute;
     }
 
-    .demo {
-        display:block;
-        float:left;
+    .page {
+        height:200px;
+        width:100px;
+        background-color: red;
+        position:absolute;
+        top:0;
+        bottom:0;
     }
 
-    .container {
-        display:block;
-        float:left;
-        height:400px;
-        width:200px;
-        background-color: lightblue;
-    }
-
-    .menu {
-        display:block;
-        float:left;
-        height:400px;
-        width:200px;
-        background-color: gray;
-    }
 
 </style>
 
 <header>
-    <nav>
-        <ul>
-            <li><a href='#/push'>Push</a></li>
-            <li><a href='#/cover'>Cover</a></li>
-            <li><a href='#/reveal'>Reveal</a></li>
-        </ul>
-    </nav>
+    <h1>Pager</h1>
 </header>
 
-<section class='all-demos'>
-    <section class='demo push'>
-        <section class='container'></section>
-        <section class='menu'></section>
-    </section>
+<section class='pages'>
 
-    <section class='demo cover'>
-        <section class='container'></section>
-        <section class='menu'></section>
-    </section>
+    <article class='page'>
+        And another
+    </article>
 
-    <section class='demo reveal'>
-        <section class='container'></section>
-        <section class='menu'></section>
-    </section>
+    <article class='page'>
+        yet another
+    </article>
+
+    <article class='page'>
+        yet another page
+    </article>
+
+    <article class='page'>
+        This is another page
+    </article>
+
+    <!--notice how the topmost page is the last html element-->
+
+    <article class='page'>
+        This is a page
+    </article>
 </section>
 
 
@@ -63,12 +63,7 @@
 
     var Pager = require('pager') //componentjs require statement
 
-    var push = new Pager([{
-        menu: '.demo.push .menu',
-        container: '.demo.push .container',
-        handle: '.demo.container .handle',
-        mode: 'push'
-    }])
+    var pager = new Pager(Array.prototype.slice.call(document.querySelectorAll('.page')))
 
 
 })()
