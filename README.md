@@ -6,8 +6,10 @@
 
   - Create a bunch of sibbling `<div>`s
   - ```
+  
     var Pager = require('pager')
     new Pager(/*array containing the sibling <div>s
+
     ```
   - Enjoy
   
