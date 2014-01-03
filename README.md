@@ -5,13 +5,13 @@
 # How to use
 
   - Create a bunch of sibbling `<div>`s
-  - ```
-  
+  - Execute:
+    ```
     var Pager = require('pager')
-    new Pager(/*array containing the sibling <div>s
+    new Pager(/* array containing the sibling <div>s */)
 
     ```
-  - Enjoy
+
   
 # Demo
   
