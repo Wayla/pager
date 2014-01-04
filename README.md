@@ -1,6 +1,8 @@
 # Pager
 
-  Pager is a library for creating a smooth paging interaction on mobile. Download the latest release here:   [https://rawgithub.com/Wayla/pager/master/release/pager.js](https://rawgithub.com/Wayla/pager/master/release/pager.js)
+  Pager is a library for creating a smooth paging interaction on mobile. 
+  
+  Download the latest release here:   [https://rawgithub.com/Wayla/pager/master/release/pager.js](https://rawgithub.com/Wayla/pager/master/release/pager.js)
   
 # How to use
 
