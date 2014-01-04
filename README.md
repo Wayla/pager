@@ -5,6 +5,7 @@
 # How to use
 
   - Create a bunch of sibbling `<div>`s
+  - Make sure they all stack on top of each other via something like `position:absolute`
   - Execute:
     ```
     var Pager = require('pager')
