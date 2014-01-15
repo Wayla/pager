@@ -1,9 +1,6 @@
-# Menu
+# Pager
 
-  Menu is a library for creating smooth touch enabled slide menus.
-
-  First check out the examples to see the types of things that Menu is capable
-of.
+  Pager is a library creating swipeable paged scrolling.
 
 # Example
 
